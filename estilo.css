@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+  text-align: center;
+  /*background: url("fundoo.jpeg");*/
+  background-color: blueviolet;
+  background-size: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+ul{
+    list-style: none;
+}
+
+.retrato {
+    width: 150px; /*largura da imagem*/
+    border-radius: 150px; /* areedondando a imagem*/
+    border: 6px solid white;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-top: 25px;
+  }
+  
+.icone {
+    width: 20px;
+    margin-top: 7px;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+  
+h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 20px; /*tamanho */
+    font-weight: normal; /*tirar o negrito */
+  }
+.link {
+    display: inline-block; /*trata a tag <a> como bloco*/
+    color: white;
+    background-color: rgba(253, 245, 245, 0.212);
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    border-radius: 35px;
+  
+    text-decoration: none; /*retira o underline*/
+  }
+  

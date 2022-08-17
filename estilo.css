@@ -33,8 +33,7 @@ ul{
 .icone {
     width: 20px;
     margin-top: 7px;
-    border-radius: 5px;
-    padding-left: 10px;
+   
   }
   
   h1 {
@@ -45,20 +44,39 @@ ul{
   
 h2 {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     font-size: 20px; /*tamanho */
     font-weight: normal; /*tirar o negrito */
   }
 .link {
-    display: inline-block; /*trata a tag <a> como bloco*/
-    color: white;
+   margin-left: 37px;
+   color: white;
+
+  
+    text-decoration: none; /*retira o underline*/
+  }
+
+  li{
+    text-align: start;
+    /*trata a tag <a> como bloco*/
+    
     background-color: rgba(253, 245, 245, 0.212);
     width: 200px;
     height: 35px;
     line-height: 35px;
-    margin-bottom: 5px;
+    margin: 7px auto;
     border-radius: 35px;
-  
-    text-decoration: none; /*retira o underline*/
+
+
+  }
+
+  span{
+    padding: 0 16px;
+  }
+
+  footer{
+    margin-top: 30px;
+
+
   }
   

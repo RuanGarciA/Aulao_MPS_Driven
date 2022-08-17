@@ -8,4 +8,6 @@ https://www.notion.so/Driven-Aul-o-Meu-Primeiro-Site-MPS-html-e-css-955ed044ee41
 
 # Preview do projeto finalizado.
 
+link da pagina: https://ruangarcia.github.io/Aulao_MPS_Driven/
+
 <img height="380em" src="https://github.com/RuanGarciA/Aulao_MPS_Driven/blob/main/icon/previl_MPS.png"/>

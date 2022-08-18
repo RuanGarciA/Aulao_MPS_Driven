@@ -5,6 +5,7 @@
 
 
 body {
+  padding-top: 60px;
   text-align: center;
   /*background: url("fundoo.jpeg");*/
   background-color: blueviolet;
@@ -75,8 +76,13 @@ h2 {
   }
 
   footer{
-    margin-top: 30px;
+    margin-top: 40px;
 
+
+  }
+
+  a:hover{
+    color: rgb(72, 12, 80);
 
   }
   

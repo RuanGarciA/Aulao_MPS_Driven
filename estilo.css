@@ -70,7 +70,13 @@ h2 {
 
 
   }
+    
 
+  a:hover{
+    color: rgb(72, 12, 80);
+
+  }
+  
   span{
     padding: 0 16px;
   }
@@ -80,9 +86,13 @@ h2 {
 
 
   }
+<<<<<<< HEAD
 
   a:hover{
     color: rgb(72, 12, 80);
 
   }
   
+=======
+  
+>>>>>>> 16e62c76dd89db7bf941d3da9e81516d046a9ec5

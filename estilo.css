@@ -1,16 +1,24 @@
+:root{
+
+  --bg-color1: blueviolet;
+  --bg-color2: rgba(253, 245, 245, 0.212);
+  --txt-color: white;
+  --txt-color-hover: rgb(72, 12, 80);
+
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
-
 body {
   padding-top: 60px;
   text-align: center;
   /*background: url("fundoo.jpeg");*/
-  background-color: blueviolet;
+  background-color: var(--bg-color1);
   background-size: 100%;
-  color: white;
+  color: var(--txt-color);
   font-family: Arial, Helvetica, sans-serif;
   
 }
@@ -51,7 +59,7 @@ h2 {
   }
 .link {
    margin-left: 37px;
-   color: white;
+   color: var(--txt-color);
 
   
     text-decoration: none; /*retira o underline*/
@@ -61,19 +69,16 @@ h2 {
     text-align: start;
     /*trata a tag <a> como bloco*/
     
-    background-color: rgba(253, 245, 245, 0.212);
+    background-color:var(--bg-color2);
     width: 200px;
     height: 35px;
     line-height: 35px;
     margin: 7px auto;
     border-radius: 35px;
-
-
   }
-    
 
   a:hover{
-    color: rgb(72, 12, 80);
+    color: var(--txt-color-hover);
 
   }
   
@@ -83,12 +88,6 @@ h2 {
 
   footer{
     margin-top: 40px;
-
-
-  }
-
-  a:hover{
-    color: rgb(72, 12, 80);
 
   }
   
